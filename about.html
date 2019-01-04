@@ -151,10 +151,51 @@
         </div>
     </section>
 
-    
+    <!-- TESTIMONIALS -->
+    <section id="testimonials" class="p-4 bg-dark text-white">
+        <div class="container">
+            <h2 class="text-center">testimonials</h2>
+            <div class="row text-center">
+                <div class="col">
+                    <div class="slider">
+                        <div>
+                            <blockquote class="blockquote">
+                                <p class="mb-0">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident nobis fugiat asperiores quaerat et, quasi voluptas aliquam recusandae.
+                                </p>
+                                <footer class="blockquote-footer">Johnny 5, I'm Still Alive!
+                                    <cite title="Company 1"> - Robo Corp</cite>
+                                </footer>
+                            </blockquote>
+                        </div>
+                        <div>
+                            <blockquote class="blockquote">
+                                <p class="mb-0">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                </p>
+                                <footer class="blockquote-footer">Ace Ventura, Allll-righty then
+                                    <cite title="Company 1"> - Pet Detective</cite>
+                                </footer>
+                            </blockquote>
+                        </div>
+                        <div>
+                            <blockquote class="blockquote">
+                                <p class="mb-0">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident nobis fugiat asperiores quaerat.
+                                </p>
+                                <footer class="blockquote-footer">G.I. Joe
+                                    <cite title="Company 1"> - Real American Hero</cite>
+                                </footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- FOOTER -->
-    <footer id="main-footer" class="text-center">
+    <footer id="main-footer" class="text-center mt-3">
         <div class="container">
             <div class="row">
                 <div class="col">
@@ -182,6 +223,12 @@
     <script>
         // Get the current year for the copyright
         $('#year').text(new Date().getFullYear());
+
+        $('.slider').slick({
+            infinite: true,
+            slideToShow: 1,
+            slideToScroll: 1
+        });
     </script>
 
 
